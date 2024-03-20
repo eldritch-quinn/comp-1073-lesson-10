@@ -25,6 +25,28 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Coffee Co-coder",
+      "calories" : 270,
+      "type" : "coffee cream",
+      "ingredients" : [
+        "iced coffee",
+        "cocoe cream",
+        "chocolate chips"
+      ],
+      "image" : "ice-cream-xtra1.svg"
+    },
+    {
+      "name" : "Rocky Road",
+      "calories" : 5000,
+      "type" : "ice cream",
+      "ingredients" : [
+        "granite chunks",
+        "chocolate bar",
+        "vanilla ice cream"
+      ],
+      "image" : "ice-cream-xtra2.svg"
     }
   ]
 }
