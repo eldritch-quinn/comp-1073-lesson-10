@@ -11,7 +11,8 @@ async function populate() {
     /* My link /
     const requestURL = `https://raw.githubusercontent.com/eldritch-quinn/comp-1073-lesson-10/main/js/i-scream.json`;
     */
-    const requestURL = ``;
+   // Bapreet's flavors
+    const requestURL = `https://raw.githubusercontent.com/Bapreet/comp-1073-lesson10/main/js/i-scream.json`;
 
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(requestURL);
@@ -64,8 +65,8 @@ function showTopFlavors(jsonObj) {
         image.setAttribute("src", `images/${topFlavors[i]["image"]}`);
   
 
-        calories.textContent = `Calories : ${topFlavors[i]["calories"]}`
-        typeOfIceCream.textContent = `Ice Cream Type : ${topFlavors[i]['type']}`
+        calories.innerHTML = `Calories: <small>${topFlavors[i]["calories"]}</small>`
+        typeOfIceCream.textContent = `Ice Cream Type: ${topFlavors[i]['type']}`
 
         let ingredients = topFlavors[i]["ingredients"];
         // STEP 10g: Build a loop for the ingredients array in the JSON
