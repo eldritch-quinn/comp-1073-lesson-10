@@ -32,7 +32,7 @@
       "type" : "coffee cream",
       "ingredients" : [
         "iced coffee",
-        "cocoe cream",
+        "cocoa cream",
         "chocolate chips"
       ],
       "image" : "ice-cream-xtra1.svg"
@@ -43,6 +43,7 @@
       "type" : "ice cream",
       "ingredients" : [
         "granite chunks",
+        "slate",
         "chocolate bar",
         "vanilla ice cream"
       ],
